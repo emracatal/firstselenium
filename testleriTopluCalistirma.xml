@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belirli pacakage calistirma">
+    <test name="paket">
+        <packages>
+            <package name="trial8"></package>
+            <package name="trial7"></package>
+        </packages>
+    </test>
+    <test name="ayri test class i">
+        <classes>
+            <class name="trial7.Case1"></class>
+            <class name="trial8.Case2_priority"></class>
+
+        </classes>
+    </test>
+</suite>
