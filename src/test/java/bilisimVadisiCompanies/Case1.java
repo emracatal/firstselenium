@@ -14,8 +14,8 @@ public class Case1 {
         WebDriver driver = new ChromeDriver();
         driver.get("https://bilisimvadisi.com.tr/hakkimizda/firmalar/");
         //<a href="javascript:void(0)" class="loadmore-exbt" data-id="extp-8948"> <span class="load-text">Load more</span><span></span>&nbsp;<span></span>&nbsp;<span></span> </a>
-        WebElement loadMoreButton = driver.findElement(By.xpath("//button[contains(text(),'Daha fazlasını yükle')]"));
-        loadMoreButton.click();
+        //WebElement loadMoreButton = driver.findElement(By.xpath("//button[contains(text(),'Daha fazlasını yükle')]"));
+        //loadMoreButton.click();
         List<WebElement> linkList = driver.findElements(By.tagName("a"));
         System.out.println();
         for (WebElement each : linkList) {
